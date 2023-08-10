@@ -1,0 +1,49 @@
+# Custom Rules for AdGuard Home
+
+0.0.0.0 p6-ad-sign.byteimg.com
+0.0.0.0 p9-ad-sign.byteimg.com
+0.0.0.0 i.snssdk.com
+0.0.0.0 i-lq.snssdk.com
+0.0.0.0 dig.bdurl.net
+0.0.0.0 activity-ag.awemeughun.com
+0.0.0.0 mcs.snssdk.com
+0.0.0.0 tnc3-alisc1.snssdk.com
+0.0.0.0 security-lq.snssdk.com
+0.0.0.0 tnc3-aliec2.snssdk.com
+0.0.0.0 is.snssdk.com
+0.0.0.0 v6-novelapp.ixigua.com
+0.0.0.0 *novelapp.ixigua.com
+0.0.0.0 *default.ixigua.com
+0.0.0.0 msync-im1-vip6-std.easemob.com
+0.0.0.0 apd-pcdnwxlogin.teg.tencent-cloud.net
+0.0.0.0 api.iegadp.qq.com
+0.0.0.0 sf3-ttcdn-tos.pstatp.com
+0.0.0.0 pglstatp-toutiao.com
+0.0.0.0 byteorge.com
+0.0.0.0 bytegoofy.com
+0.0.0.0 bytedance.com
+
+# IP Addresses
+0.0.0.0 49.71.37.101
+0.0.0.0 117.71.105.23
+0.0.0.0 218.94.207.205
+0.0.0.0 117.92.229.188
+0.0.0.0 101.36.166.16
+0.0.0.0 180.96.2.114
+
+# URL Rewrite Rules for AdGuard Home
+
+^http://.+\.pangolin-sdk-toutiao\.com/api/ad/union/sdk/(get_ads|stats|settings)/$ - reject
+^http://.+\.pglstatp-toutiao\.com/.+/toutiao\.mp4$ - reject
+^http://.+\.(pglstatp-toutiao|pstatp)\.com/(obj|img)/(ad-app-package|ad)/.+$ - reject
+^http://.+\.(pglstatp-toutiao|pstatp)\.com/(obj|img)/web\.business\.image/.+$ - reject
+^http://.+\.(pglstatp-toutiao|pstatp)\.com/obj/ad-pattern/renderer$ - reject
+^http://gurd\.snssdk\.com/src/server/v3/package$ - reject
+^http://.+\.byteimg\.com/tos-cn-i-1yzifmftcy/.+-jpeg\.jpeg$ - reject
+^http://.+\.pstatp\.com/obj/mosaic-legacy/.+\?from=ad$ - reject
+^http://.+\.pstatp\.com/bytecom/resource/track-log/src/.+$ - reject
+^http://.+\.snssdk\.com/video/play/1/toutiao/.+/mp4$ - reject
+^http://.+\.snssdk\.com/api/ad/.+$ - reject
+^http://.+\.byteimg\.com/ad-app-package$ - reject
+^http://.+\.byteimg\.com/web\.business\.image$ - reject
+^http://.+?\.snssdk\.com/motor/operation/activity/display/config/V2/$ - reject

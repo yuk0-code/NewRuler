@@ -33,17 +33,17 @@
 
 # URL Rewrite Rules for AdGuard Home
 
-^http://.+\.pangolin-sdk-toutiao\.com/api/ad/union/sdk/(get_ads|stats|settings)/$ - reject
-^http://.+\.pglstatp-toutiao\.com/.+/toutiao\.mp4$ - reject
-^http://.+\.(pglstatp-toutiao|pstatp)\.com/(obj|img)/(ad-app-package|ad)/.+$ - reject
-^http://.+\.(pglstatp-toutiao|pstatp)\.com/(obj|img)/web\.business\.image/.+$ - reject
-^http://.+\.(pglstatp-toutiao|pstatp)\.com/obj/ad-pattern/renderer$ - reject
-^http://gurd\.snssdk\.com/src/server/v3/package$ - reject
-^http://.+\.byteimg\.com/tos-cn-i-1yzifmftcy/.+-jpeg\.jpeg$ - reject
-^http://.+\.pstatp\.com/obj/mosaic-legacy/.+\?from=ad$ - reject
-^http://.+\.pstatp\.com/bytecom/resource/track-log/src/.+$ - reject
-^http://.+\.snssdk\.com/video/play/1/toutiao/.+/mp4$ - reject
-^http://.+\.snssdk\.com/api/ad/.+$ - reject
-^http://.+\.byteimg\.com/ad-app-package$ - reject
-^http://.+\.byteimg\.com/web\.business\.image$ - reject
-^http://.+?\.snssdk\.com/motor/operation/activity/display/config/V2/$ - reject
+^http://.+\.pangolin-sdk-toutiao\.com/api/ad/union/sdk/(get_ads|stats|settings)/$ - 0.0.0.0
+^http://.+\.pglstatp-toutiao\.com/.+/toutiao\.mp4$ - 0.0.0.0
+^http://.+\.(pglstatp-toutiao|pstatp)\.com/(obj|img)/(ad-app-package|ad)/.+$ - 0.0.0.0
+^http://.+\.(pglstatp-toutiao|pstatp)\.com/(obj|img)/web\.business\.image/.+$ - 0.0.0.0
+^http://.+\.(pglstatp-toutiao|pstatp)\.com/obj/ad-pattern/renderer$ - 0.0.0.0
+^http://gurd\.snssdk\.com/src/server/v3/package$ - 0.0.0.0
+^http://.+\.byteimg\.com/tos-cn-i-1yzifmftcy/.+-jpeg\.jpeg$ - 0.0.0.0
+^http://.+\.pstatp\.com/obj/mosaic-legacy/.+\?from=ad$ - 0.0.0.0
+^http://.+\.pstatp\.com/bytecom/resource/track-log/src/.+$ - 0.0.0.0
+^http://.+\.snssdk\.com/video/play/1/toutiao/.+/mp4$ - 0.0.0.0
+^http://.+\.snssdk\.com/api/ad/.+$ - 0.0.0.0
+^http://.+\.byteimg\.com/ad-app-package$ - 0.0.0.0
+^http://.+\.byteimg\.com/web\.business\.image$ - 0.0.0.0
+^http://.+?\.snssdk\.com/motor/operation/activity/display/config/V2/$ - 0.0.0.0
